@@ -25,6 +25,19 @@ const PopularSection = () => {
     //modalScreen.classList.remove("active");
   };
 
+  const responsiveOptions = {
+    320: {
+      slidesPerView: 1
+    },
+    768: {
+      slidesPerView: 2
+    },
+    1024: {
+      slidesPerView: 3
+    }
+  };
+  
+
   return (
     <>
       <section class="popular section" id="explore">
@@ -42,6 +55,7 @@ const PopularSection = () => {
             spaceBetween={32}
             grabCursor={true}
             centeredSlides={true}
+            breakpoints={responsiveOptions}
             slidesPerView={3}
             loop={true}
             className="mySwiper popular_container"
