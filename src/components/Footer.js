@@ -81,7 +81,7 @@ const Footer = () => {
                         </h3>
 
                         <ul className="footer_socials">
-                            <a href="#" className="footer_social-link" target="_blank">
+                            <a href="https://www.linkedin.com/in/winifredasantewaaasante" className="footer_social-link" target="_blank">
                                 <i className='bx bxl-linkedin-square'></i>                      
                                   </a>
                             <a href="#" className="footer_social-link" target="_blank">
