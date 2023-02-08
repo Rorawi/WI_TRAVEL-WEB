@@ -153,6 +153,15 @@ const PopularSection = () => {
             <SwiperSlide>Slide 7</SwiperSlide>
             <SwiperSlide>Slide 8</SwiperSlide>
             <SwiperSlide>Slide 9</SwiperSlide>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
             <div class="swiper-button-next">
             <i class="bx bx-chevron-right"></i>
           </div>
